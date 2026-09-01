@@ -76,6 +76,8 @@ Wait, actually we cannot see anything. Why is that? That's because by default, t
 
 Can you figure out how to expose the application on port 8081 on your machine? The [docker documentation](https://docs.docker.com/reference/cli/docker/) might help.
 
+Once you have it working, try accessing the application in your browser at `http://localhost:8081` and start downloading videos!
+
 ### Persistence
 
 Docker containers are ephemeral by default, meaning that any changes made to the container's filesystem are lost when the container is stopped or removed. To persist data, you can use volumes to mount a directory from the host machine into the container. This allows you to store data outside of the container, so it persists even if the container is removed.
